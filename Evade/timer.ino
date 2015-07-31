@@ -1,3 +1,9 @@
+/* virtually copied from http://playground.arduino.cc/Main/MultiplexMAX72xx
+
+   yeah i cite ppl correctly
+   
+ */
+
 /////////////////////////////ISR Timer Functions ///////////////////////////
 
 ISR(TIMER2_COMPA_vect) {  //This ISR toggles shutdown between the 2MAX7221's
